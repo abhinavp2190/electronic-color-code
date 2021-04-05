@@ -1,0 +1,110 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+select option.BLACK {
+  color: white;
+  background: rgb(35, 35, 35);
+}
+
+select option.BROWN {
+  color: white;
+  background: rgb(90, 45, 28);
+}
+
+select option.RED {
+  color: white;
+  background: rgb(229, 28, 36);
+}
+
+select option.ORANGE {
+  color: white;
+  background: rgb(250, 113, 6);
+}
+
+select option.YELLOW {
+  color: black;
+  background: rgb(230, 201, 81);
+}
+
+select option.GREEN {
+  color: white;
+  background: rgb(82, 143, 101);
+}
+
+select option.BLUE {
+  color: white;
+  background: rgb(15, 81, 144);
+}
+
+select option.VIOLET {
+  color: white;
+  background: rgb(105, 103, 206);
+}
+
+select option.GREY {
+  color: white;
+  background: rgb(125, 125, 125);
+}
+
+select option.WHITE {
+  color: black;
+  background: rgb(255, 255, 255);
+}
+
+select option.GOLD {
+  color: black;
+  background: rgb(192, 131, 39);
+}
+
+select option.SILVER {
+  color: black;
+  background: rgb(191, 190, 191);
+}
+
+select option.PINK {
+  color: black;
+  background: rgb(255, 105, 180);
+}
+
