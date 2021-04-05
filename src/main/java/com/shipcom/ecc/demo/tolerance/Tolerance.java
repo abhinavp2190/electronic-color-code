@@ -18,6 +18,15 @@ public class Tolerance {
 
 	@Column
 	private float value;
+	
+	public Tolerance(Integer id, String color, Float value) {
+		this.id=id;
+		this.color=color;
+		this.value=value;
+	}
+	
+	public Tolerance() {
+	}
 
 	public Integer getId() {
 		return id;

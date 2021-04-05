@@ -18,6 +18,16 @@ public class Multiplier {
 
 	@Column
 	private Float value;
+	
+	public Multiplier(Integer id, String color, Float value) {
+		this.id=id;
+		this.color=color;
+		this.value=value;
+	}
+	
+	public Multiplier() {
+		
+	}
 
 	public Integer getId() {
 		return id;

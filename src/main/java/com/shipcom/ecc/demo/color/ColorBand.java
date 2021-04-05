@@ -19,6 +19,16 @@ public class ColorBand {
 	@Column
 	private Integer value;
 	
+	public ColorBand(Integer id, String color, Integer value) {
+		this.id=id;
+		this.color=color;
+		this.value=value;
+	}
+	
+	public ColorBand() {
+		
+	}
+
 	public Integer getId() {
 		return id;
 	}
